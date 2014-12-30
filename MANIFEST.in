@@ -1,0 +1,3 @@
+global-exclude *.pyc
+recursive-include geoip_data *.dat
+include README.rst
