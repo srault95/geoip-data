@@ -7,7 +7,6 @@ Usage:
     >>> country_v4 = where_country_ipv4()
     >>> os.path.exists(country_v4)
     True
-
 '''
 
 __all__ = [
@@ -16,7 +15,7 @@ __all__ = [
     'where_country_both'
 ]
 
-__VERSION__ = "0.0.1"
+__VERSION__ = "1.0.0"
 
 import os
 
@@ -30,7 +29,6 @@ def where_country_ipv6():
 
 def where_country_both():
     return [where_country_ipv4(), where_country_ipv6()]
-
 
 if __name__ == '__main__':
     print(where_country_ipv4())

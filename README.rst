@@ -1,5 +1,9 @@
+=======================
 GeoIP datas for Pygeoip
 =======================
+
+Sample
+======
 
 ::
 
@@ -14,5 +18,4 @@ GeoIP datas for Pygeoip
     >>> country_v4 = pygeoip.GeoIP(filepath, flags=pygeoip.MMAP_CACHE)
     >>> country_v4.country_code_by_addr('64.233.161.99')
     'US'
-    
     
