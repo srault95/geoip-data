@@ -15,8 +15,6 @@ __all__ = [
     'where_country_both'
 ]
 
-__VERSION__ = "1.0.0"
-
 import os
 
 def where_country_ipv4():

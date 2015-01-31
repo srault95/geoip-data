@@ -2,14 +2,14 @@
 
 from setuptools import setup, find_packages
 
-from geoip_data import __VERSION__
+from geoip_data.version import get_version
 
 with open("README.rst") as fp:
     long_description = fp.read()
 
 setup(
     name='geoip-data',
-    version=__VERSION__,
+    version=get_version(),
     description='Simple dat file finder for pygeoip',
     long_description=long_description,
     author='Stéphane RAULT',
